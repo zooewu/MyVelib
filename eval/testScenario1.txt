@@ -1,0 +1,10 @@
+setup map1
+addUser Luke,Vlibre,map1
+rentBike 1,1
+returnBike 1,2,100
+offline map1,1
+online map1,1
+displayStation map1,1
+displayUser map1,1
+sortStation map1,mostUsedStation
+display map1

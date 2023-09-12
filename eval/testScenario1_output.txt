@@ -1,0 +1,612 @@
+***************
+Station ID:1
+X:0.0 Y:0.0
+existing mechanical bicycle number:4
+existing electric bicycle number:1
+empty slot number:5
+total rent: 1
+total return:0
+records:
+[Operation]12th 22:0  Station 1 Event: rent
+[Operation]12th 22:0  Station 1 Event: Offline
+[Operation]12th 22:0  Station 1 Event: On-service
+***************
+User ID:1
+Name:Luke
+[User Balance]
+total ride number:1
+total ride Time100
+total charge2.333333333333333 euro
+total time credit earned:0
+***************
+Sorted stations(most used station)
+the station 2 has been used 1 times
+the station 1 has been used 1 times
+the station 10 has been used 0 times
+the station 9 has been used 0 times
+the station 8 has been used 0 times
+the station 7 has been used 0 times
+the station 6 has been used 0 times
+the station 5 has been used 0 times
+the station 4 has been used 0 times
+the station 3 has been used 0 times
+***************
+Station ID:1
+X:0.0 Y:0.0
+existing mechanical bicycle number:4
+existing electric bicycle number:1
+empty slot number:5
+total rent: 1
+total return:0
+records:
+[Operation]12th 22:0  Station 1 Event: rent
+[Operation]12th 22:0  Station 1 Event: Offline
+[Operation]12th 22:0  Station 1 Event: On-service
+[Slots]
+	Slot [ID=1, status=free, stationID=1, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=2, status=occupied, stationID=1, bicycle=Bicycle [ID=41, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=1, bicycle=Bicycle [ID=221, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=1, bicycle=Bicycle [ID=232, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=1, bicycle=Bicycle [ID=262, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=1, bicycle=Bicycle [ID=314, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=free, stationID=1, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=8, status=free, stationID=1, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=9, status=free, stationID=1, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=10, status=free, stationID=1, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+***************
+Station ID:2
+X:4.0 Y:0.0
+existing mechanical bicycle number:7
+existing electric bicycle number:3
+empty slot number:0
+total rent: 0
+total return:1
+records:
+[Operation]12th 22:0  Station 2 Event: return
+[Slots]
+	Slot [ID=1, status=occupied, stationID=2, bicycle=Bicycle [ID=14, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=2, bicycle=Bicycle [ID=24, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=2, bicycle=Bicycle [ID=33, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=2, bicycle=Bicycle [ID=104, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=2, bicycle=Bicycle [ID=109, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=2, bicycle=Bicycle [ID=115, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=occupied, stationID=2, bicycle=Bicycle [ID=167, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=8, status=occupied, stationID=2, bicycle=Bicycle [ID=175, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=9, status=occupied, stationID=2, bicycle=Bicycle [ID=203, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=10, status=occupied, stationID=2, bicycle=Bicycle [ID=333, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+***************
+Station ID:3
+X:8.0 Y:0.0
+existing mechanical bicycle number:3
+existing electric bicycle number:1
+empty slot number:6
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=3, bicycle=Bicycle [ID=2, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=3, bicycle=Bicycle [ID=148, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=3, bicycle=Bicycle [ID=212, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=3, bicycle=Bicycle [ID=302, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=free, stationID=3, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=6, status=free, stationID=3, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=7, status=free, stationID=3, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=8, status=free, stationID=3, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=9, status=free, stationID=3, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=10, status=free, stationID=3, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+***************
+Station ID:4
+X:0.0 Y:4.0
+existing mechanical bicycle number:8
+existing electric bicycle number:2
+empty slot number:0
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=4, bicycle=Bicycle [ID=4, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=4, bicycle=Bicycle [ID=22, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=4, bicycle=Bicycle [ID=57, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=4, bicycle=Bicycle [ID=90, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=4, bicycle=Bicycle [ID=209, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=4, bicycle=Bicycle [ID=218, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=occupied, stationID=4, bicycle=Bicycle [ID=228, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=8, status=occupied, stationID=4, bicycle=Bicycle [ID=240, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=9, status=occupied, stationID=4, bicycle=Bicycle [ID=278, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=10, status=occupied, stationID=4, bicycle=Bicycle [ID=353, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+***************
+Station ID:5
+X:4.0 Y:4.0
+existing mechanical bicycle number:6
+existing electric bicycle number:0
+empty slot number:4
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=5, bicycle=Bicycle [ID=204, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=5, bicycle=Bicycle [ID=248, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=5, bicycle=Bicycle [ID=281, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=5, bicycle=Bicycle [ID=285, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=5, bicycle=Bicycle [ID=290, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=5, bicycle=Bicycle [ID=308, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=free, stationID=5, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=8, status=free, stationID=5, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=9, status=free, stationID=5, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=10, status=free, stationID=5, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+***************
+Station ID:6
+X:8.0 Y:4.0
+existing mechanical bicycle number:2
+existing electric bicycle number:3
+empty slot number:5
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=6, bicycle=Bicycle [ID=1, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=6, bicycle=Bicycle [ID=51, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=6, bicycle=Bicycle [ID=54, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=6, bicycle=Bicycle [ID=71, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=6, bicycle=Bicycle [ID=180, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=free, stationID=6, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=7, status=free, stationID=6, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=8, status=free, stationID=6, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=9, status=free, stationID=6, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=10, status=free, stationID=6, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+***************
+Station ID:7
+X:0.0 Y:8.0
+existing mechanical bicycle number:3
+existing electric bicycle number:7
+empty slot number:0
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=7, bicycle=Bicycle [ID=6, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=7, bicycle=Bicycle [ID=8, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=7, bicycle=Bicycle [ID=13, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=7, bicycle=Bicycle [ID=18, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=7, bicycle=Bicycle [ID=30, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=7, bicycle=Bicycle [ID=39, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=occupied, stationID=7, bicycle=Bicycle [ID=48, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=8, status=occupied, stationID=7, bicycle=Bicycle [ID=67, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=9, status=occupied, stationID=7, bicycle=Bicycle [ID=83, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=10, status=occupied, stationID=7, bicycle=Bicycle [ID=100, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+***************
+Station ID:8
+X:4.0 Y:8.0
+existing mechanical bicycle number:8
+existing electric bicycle number:1
+empty slot number:1
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=8, bicycle=Bicycle [ID=49, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=8, bicycle=Bicycle [ID=59, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=8, bicycle=Bicycle [ID=86, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=8, bicycle=Bicycle [ID=126, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=8, bicycle=Bicycle [ID=135, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=8, bicycle=Bicycle [ID=146, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=occupied, stationID=8, bicycle=Bicycle [ID=155, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=8, status=occupied, stationID=8, bicycle=Bicycle [ID=194, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=9, status=occupied, stationID=8, bicycle=Bicycle [ID=257, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=10, status=free, stationID=8, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+***************
+Station ID:9
+X:8.0 Y:8.0
+existing mechanical bicycle number:4
+existing electric bicycle number:2
+empty slot number:4
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=9, bicycle=Bicycle [ID=3, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=9, bicycle=Bicycle [ID=20, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=9, bicycle=Bicycle [ID=122, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=9, bicycle=Bicycle [ID=130, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=9, bicycle=Bicycle [ID=160, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=9, bicycle=Bicycle [ID=186, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=free, stationID=9, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=8, status=free, stationID=9, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=9, status=free, stationID=9, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+	Slot [ID=10, status=free, stationID=9, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+
+***************
+Station ID:10
+X:0.0 Y:12.0
+existing mechanical bicycle number:7
+existing electric bicycle number:2
+empty slot number:1
+total rent: 0
+total return:0
+records:
+[Slots]
+	Slot [ID=1, status=occupied, stationID=10, bicycle=Bicycle [ID=5, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=2, status=occupied, stationID=10, bicycle=Bicycle [ID=10, type=Ebike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=3, status=occupied, stationID=10, bicycle=Bicycle [ID=74, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=4, status=occupied, stationID=10, bicycle=Bicycle [ID=119, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=5, status=occupied, stationID=10, bicycle=Bicycle [ID=140, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=6, status=occupied, stationID=10, bicycle=Bicycle [ID=246, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=7, status=occupied, stationID=10, bicycle=Bicycle [ID=269, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=8, status=occupied, stationID=10, bicycle=Bicycle [ID=298, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=9, status=occupied, stationID=10, bicycle=Bicycle [ID=323, type=Mbike]]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+		SlotOperation [time=[12, 22, 0], state=occupied]
+
+	Slot [ID=10, status=free, stationID=10, bicycle=null]
+	[Records]
+		SlotOperation [time=[12, 22, 0], state=free]
+

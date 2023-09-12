@@ -1,0 +1,15 @@
+msg If you are in automatic route planning mode, please don't quit!
+msg You will have dynamic information every 30 sec ;)
+setup mapDemo
+addUser Charles vlibre 1.5 0
+addUser Trump vmax 24.5 25
+move 1 12 12.6 ebike
+move 2 20 15 mbike
+pause 120
+offline 2
+pause 360
+online 2
+displayStation mapDemo 2
+displayUser mapDemo 1
+sortStation mapDemo mostUsedStation
+display mapDemo
