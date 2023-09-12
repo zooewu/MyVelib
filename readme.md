@@ -77,8 +77,6 @@ In order to store the data properly, a class Server is created as shown below wh
 
 ## 3. Use case scenarios
 
-### 3.0 Setting up of myVelib
-
 By running the two _main_ function in the class Main.java, the two following features are implemented:
 
 ### 3.1 Administration CLI
